@@ -2,7 +2,7 @@
 export default function Sidebar() {
     return (
         <>
-            <div>
+            <div className="sidebar-container">
                 <ul>
                     <li>Languages</li>
                     <li>Sports</li>

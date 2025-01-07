@@ -4,6 +4,9 @@
 }
 
 header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: aliceblue;
   height: 50px;
 }
@@ -17,5 +20,17 @@ nav > a {
   text-decoration: none;
   color: black;
   font-weight: 800;
-  border;
+}
+
+
+main {
+  background-color:antiquewhite;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar-container {
+  visibility: collapse;
 }
